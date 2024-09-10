@@ -25,12 +25,12 @@ class Plant:
     def __init__(self, name):
         self.name = name
 
-
 class Flower(Plant):
     pass
 
 class Fruit(Plant):
     edible = True
+
 
 a1 = Predator('Волк с Уолл-Стрит')
 a2 = Mammal('Хатико')
