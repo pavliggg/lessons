@@ -31,6 +31,7 @@ class Shop:
             if product.name not in existing_products:
                 with open(self.__file_name, 'a') as file:
                     file.write(str(product) + '\n')
+                    file.close()
             else:
                 print(f"Продукт {product} уже есть в магазине")
 
